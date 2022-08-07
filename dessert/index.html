@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dessert</title>
+  <!-- 引入bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+  <!-- 引入animate.css 动画效果 -->
+  <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+  <!-- 重置样式 -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+
+  <!-- 公共样式 引入的是一个 less文件 -->
+  <link rel="stylesheet/less" href="./assets/css/common.less" />
+
+  <!-- 首页样式 -->
+  <link rel="stylesheet/less" href="./assets/css/index.less" />
+</head>
+
+<body>
+  <!-- 头部 -->
+  <header class="header navbar navbar-inverse">
+    <div class="container">
+      <div class="navbar-header">
+        <!-- 移动端的三条横杆菜单部分 -->
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="#">
+          <div class="studio">
+            LOGO
+          </div>
+        </a>
+      </div>
+
+      <!-- 导航 -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a class="wow fadeInUp" data-wow-delay="0ms" href="#banner">网站首页</a></li>
+          <li><a class="wow fadeInUp" data-wow-delay="100ms" href="#company">关于我们</a></li>
+          <li><a class="wow fadeInUp" data-wow-delay="200ms" href="#culture">美食产品</a></li>
+          <li><a class="wow fadeInUp" data-wow-delay="400ms" href="#dessert">在线预定</a></li>
+          <li><a class="wow fadeInUp" data-wow-delay="500ms" href="#news">新闻资讯</a></li>
+          <li><a class="wow fadeInUp" data-wow-delay="500ms" href="#bottom">联系我们</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <!-- banner部分 -->
+  <div id="carousel-example-generic top" class="carousel slide" data-ride="carousel" data-interval="2000">
+    <!-- Indicators -->
+
+    <!-- Wrapper for slides -->
+    <div id="banner" class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="./assets/images/banner1.png" alt="...">
+        <div class="item-box">
+          <div class="item-title">
+            <div class="item-big-title wow fadeInUp" data-wow-delay="100ms">
+              I LOVE dessert !
+            </div>
+            <div class="item-small-title wow fadeInUp" data-wow-delay="150ms">
+              春季新款流 芒果慕斯甜品
+              <span> 新一代的选择，新一代的诱惑
+                天然 . 健康 . 营养</span>
+            </div>
+          </div>
+          <div class="item-remark">
+            <div class="ramark-box wow fadeInUp" data-wow-delay="250ms">
+              据说品尝一块自己钟爱甜品的幸福感相当于得到心仪汉子的十个熊抱~
+              现在马上就到了春暖花开季节，春季旅游也被许多妹子提上了行程，
+              某甜品站推荐超级有特色甜品咖啡屋，想一想
+              如果来一个甜品之旅是多么幸福，快到甜品店体验甜蜜如初恋的滋味吧~
+              放松心情的时候到了，你还在等什么呢?
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <!-- <div class="item">
+        <img src="./assets/images/banner2.png" alt="...">
+
+      </div>
+      <div class="item">
+        <img src="./assets/images/banner3.png" alt="...">
+      </div> -->
+    </div>
+  </div>
+
+
+  <!-- 公司简介部分 -->
+  <div class="company" id="company">
+    <div class="container">
+      <div class="company-img-box wow fadeInUp" data-wow-delay="200ms">
+        <img src="./assets/images/company-img.png" alt="">
+      </div>
+
+      <div class="company-right">
+        <div class="company-remark">
+          <div class="swing wow fadeInUp" data-wow-delay="100ms">
+            <img src="./assets/images/翅膀.png" alt="">
+          </div>
+          <div class="company-title wow fadeInUp" data-wow-delay="150ms">
+            <h3>Company profile</h3>
+            <h3>公<span>司简</span>介</h3>
+          </div>
+        </div>
+
+        <div class="des wow fadeInUp" data-wow-delay="250ms">
+          1993年8月8日，注定是对中国糖果行业有着深远影响的一天，某某食品有限
+          公司怀着与生俱来的激情与活力在海峡西岸经济区——福建晋江诞生。
+          经过十年的沉淀，某某在2003年完成了第一次华丽转身，某某V9的横空出世，
+          为中国开创了维生素糖果的品类。随后，益牙木糖醇在口香糖领域取得巨大成
+          功，打破了外资品牌垄断胶母糖果市场的局面。某某VQ、浓点、美嚼等众多
+          分品牌也迅速获得市场认可，形成了中国糖果行业第一流的品牌方阵.也为某
+          某赢得了“中国驰名商标”、“中国名牌”、“国家免检产品” 等代表中国产品和品牌的至高荣誉。“甜蜜促进和谐，创新改变生活”，作为糖果行业的
+          领军企业，某某一直致力于将甜蜜文化融入人们生活，“健康”、“快乐”“运动”、“时尚”、“喜庆”，是某某赋予糖果的一个个鲜活的个性。而
+          某某不断创新的精神，正是这些个性的灵魂。
+        </div>
+        <div class="more wow fadeInUp" data-wow-delay="350ms">
+          <div class="more-span">
+            <span> 查看更多</span>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 企业文化部分 -->
+  <div class="culture" id="culture">
+    <div class="container">
+      <div class="culture-left">
+        <div class="company-remark">
+          <div class="swing wow fadeInUp" data-wow-delay="100ms">
+            <img src="./assets/images/翅膀.png" alt="">
+          </div>
+          <div class="company-title wow fadeInUp" data-wow-delay="150ms">
+            <h3>corporate culture</h3>
+            <h3>企<span>业文</span>化</h3>
+          </div>
+        </div>
+
+        <div class="des wow fadeInUp" data-wow-delay="250ms">
+          烘焙，又称为烘烤、焙烤，是指在物料燃点之下通过干热的方式使物料脱水变干变硬的过程。
+          烘焙是面包、蛋糕类产品制作不可缺少的步骤，通过烘焙后淀粉产生糊化、蛋白质变性等一系
+          列化学变化后，面包、蛋糕达到熟化的目的。也能使食物的口感发生变化。
+          企业文化由三个层次构成：
+          （1）表面层的物质文化，称为企业的“硬文化”。包括厂容、厂貌、机械设备，产品造型、
+          外观、质量等。
+          （2）中间层次的制度文化，包括领导体制、人际关系以及各项规章制度和纪律等。
+          （3）核心层的精神文化，称为“企业软文化”。包括各种行为规范、价值观念、企业的群体意
+          识、职工素质和优良传统等，是企业文化的核心，被称为企业精神。
+        </div>
+      </div>
+
+      <div class="culture-right wow fadeInUp" data-wow-delay="100ms">
+        <div class="culture-right-box">
+          <img src="./assets/images/culture1.png" alt="">
+        </div>
+
+        <div class="culture-right-box wow fadeInUp" data-wow-delay="200ms">
+          <img src="./assets/images/culture2.png" alt="">
+        </div>
+
+        <div class="culture-right-box wow fadeInUp" data-wow-delay="300ms">
+          <img src="./assets/images/culture3.png" alt="">
+        </div>
+
+        <div class="culture-right-box wow fadeInUp" data-wow-delay="400ms">
+          <img src="./assets/images/culture4.png" alt="">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 甜品展示 -->
+  <div class="dessert" id="dessert">
+    <div class="container">
+      <div class="dessert-top">
+        <div class="company-remark">
+          <div class="swing wow fadeInUp" data-wow-delay="100ms">
+            <img src="./assets/images/翅膀.png" alt="">
+          </div>
+          <div class="company-title wow fadeInUp" data-wow-delay="150ms">
+            <h3>Dessert show</h3>
+            <h3>甜<span>品展</span>示</h3>
+          </div>
+        </div>
+      </div>
+
+      <div class="dessert-big-box">
+        <div class="dessert-small-box">
+          <div class="img-box wow fadeInUp" data-wow-delay="100ms">
+            <img src="./assets/images/dessert-img1.png" alt="">
+          </div>
+          <div class="dessert-remark">
+            <p class="name">热门甜品</p>
+            <p class="price">市场价:0.00</p>
+            <p class="price">价格: <span>0.00</span></p>
+          </div>
+        </div>
+
+        <div class="dessert-small-box">
+          <div class="img-box wow fadeInUp" data-wow-delay="150ms">
+            <img src="./assets/images/dessert-img2.png" alt="">
+          </div>
+          <div class="dessert-remark">
+            <p class="name">热门甜品</p>
+            <p class="price">市场价:0.00</p>
+            <p class="price">价格: <span>4.00</span></p>
+          </div>
+        </div>
+
+        <div class="dessert-small-box">
+          <div class="img-box wow fadeInUp" data-wow-delay="200ms">
+            <img src="./assets/images/dessert-img3.png" alt="">
+          </div>
+          <div class="dessert-remark">
+            <p class="name">热门甜品</p>
+            <p class="price">市场价:0.00</p>
+            <p class="price">价格: <span>5.00</span></p>
+          </div>
+        </div>
+
+        <div class="dessert-small-box">
+          <div class="img-box wow fadeInUp" data-wow-delay="250ms">
+            <img src="./assets/images/dessert-img4.png" alt="">
+          </div>
+          <div class="dessert-remark">
+            <p class="name">热门甜品</p>
+            <p class="price">市场价:0.00</p>
+            <p class="price">价格: <span>4.00</span></p>
+          </div>
+        </div>
+
+        <div class="dessert-small-box">
+          <div class="img-box wow fadeInUp" data-wow-delay="300ms">
+            <img src="./assets/images/dessert-img5.png" alt="">
+          </div>
+          <div class="dessert-remark">
+            <p class="name">热门甜品</p>
+            <p class="price">市场价:0.00</p>
+            <p class="price">价格: <span>2.00</span></p>
+          </div>
+        </div>
+
+        <div class="dessert-small-box">
+          <div class="img-box wow fadeInUp" data-wow-delay="350ms">
+            <img src="./assets/images/dessert-img6.png" alt="">
+          </div>
+          <div class="dessert-remark">
+            <p class="name">热门甜品</p>
+            <p class="price">市场价:0.00</p>
+            <p class="price">价格: <span>3.50</span></p>
+          </div>
+        </div>
+
+        <div class="dessert-small-box">
+          <div class="img-box wow fadeInUp" data-wow-delay="400ms">
+            <img src="./assets/images/dessert-img7.png" alt="">
+          </div>
+          <div class="dessert-remark">
+            <p class="name">热门甜品</p>
+            <p class="price">市场价:0.00</p>
+            <p class="price">价格: <span>2.00</span></p>
+          </div>
+        </div>
+
+        <div class="dessert-small-box">
+          <div class="img-box wow fadeInUp" data-wow-delay="450ms">
+            <img src="./assets/images/dessert-img8.png" alt="">
+          </div>
+          <div class="dessert-remark">
+            <p class="name">热门甜品</p>
+            <p class="price">市场价:0.00</p>
+            <p class="price">价格: <span>3.00</span></p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="more">
+        <div class="more-span wow fadeInUp" data-wow-delay="500ms">
+          <span> 查看更多</span>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <!-- 新闻资讯 -->
+  <div class="news" id="news">
+    <div class="container">
+      <div class="news-left wow fadeInUp" data-wow-delay="100ms">
+        <img src="./assets/images/news-left-img.png" alt="">
+      </div>
+
+      <div class="news-right">
+        <div class="company-remark">
+          <div class="swing wow fadeInUp" data-wow-delay="100ms">
+            <img src="./assets/images/翅膀.png" alt="">
+          </div>
+          <div class="company-title wow fadeInUp" data-wow-delay="150ms">
+            <h3>Company profile</h3>
+            <h3>公<span>司简</span>介</h3>
+          </div>
+        </div>
+
+        <div class="news-small-box">
+          <div class="square wow fadeInUp" data-wow-delay="200ms">
+            <h2>20</h2>
+            <span>2022-01</span>
+          </div>
+          <div class="rec">
+            <span class="rec-title">千层的浪漫：俄罗斯拿破仑蛋糕</span> <br />
+            <span class="rec-remark">有些食物是用来饱腹的，那是必须品，如粗茶淡饭：虽味道平淡，却不可或缺，
+              也久食不厌；</span>
+          </div>
+        </div>
+
+        <div class="news-small-box">
+          <div class="square wow fadeInUp" data-wow-delay="300ms">
+            <h2>21</h2>
+            <span>2022-02</span>
+          </div>
+          <div class="rec">
+            <span class="rec-title">千层的浪漫：俄罗斯拿破仑蛋糕</span> <br />
+            <span class="rec-remark">有些食物是用来饱腹的，那是必须品，如粗茶淡饭：虽味道平淡，却不可或缺，
+              也久食不厌；</span>
+          </div>
+        </div>
+
+        <div class="news-small-box">
+          <div class="square wow fadeInUp" data-wow-delay="400ms">
+            <h2>22</h2>
+            <span>2022-03</span>
+          </div>
+          <div class="rec">
+            <span class="rec-title">千层的浪漫：俄罗斯拿破仑蛋糕</span> <br />
+            <span class="rec-remark">有些食物是用来饱腹的，那是必须品，如粗茶淡饭：虽味道平淡，却不可或缺，
+              也久食不厌；</span>
+          </div>
+        </div>
+
+        <div class="news-small-box">
+          <div class="square wow fadeInUp" data-wow-delay="500ms">
+            <h2>23</h2>
+            <span>2022-04</span>
+          </div>
+          <div class="rec">
+            <span class="rec-title">千层的浪漫：俄罗斯拿破仑蛋糕</span> <br />
+            <span class="rec-remark">有些食物是用来饱腹的，那是必须品，如粗茶淡饭：虽味道平淡，却不可或缺，
+              也久食不厌；</span>
+          </div>
+        </div>
+
+        <div class="news-small-box">
+          <div class="square wow fadeInUp" data-wow-delay="600ms">
+            <h2>24</h2>
+            <span>2022-05</span>
+          </div>
+          <div class="rec">
+            <span class="rec-title">千层的浪漫：俄罗斯拿破仑蛋糕</span> <br />
+            <span class="rec-remark">有些食物是用来饱腹的，那是必须品，如粗茶淡饭：虽味道平淡，却不可或缺，
+              也久食不厌；</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 底部蛋糕图片 -->
+  <div class="cake" id="cake">
+    <div class="container">
+      <div class="cake-box wow fadeInUp" data-wow-delay="100ms">
+        <img src="./assets/images/bottom-img3.png" alt="">
+      </div>
+
+      <div class="cake-box wow fadeInUp" data-wow-delay="200ms">
+        <img src="./assets/images/bottom-img1.png" alt="">
+      </div>
+
+      <div class="cake-box wow fadeInUp" data-wow-delay="300ms">
+        <img src="./assets/images/bottom-img2.png" alt="">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 底部信息 -->
+  <div class="bottom" id="bottom">
+    <div class="container">
+      <div class="big-box">
+        <div class="box-left">
+          <div class="active-box">
+            <a class="wow fadeInUp" data-wow-delay="100ms" href="#banner">网站首页</a>
+            <a class="wow fadeInUp" data-wow-delay="150ms" href="#company">关于我们</a>
+            <a class="wow fadeInUp" data-wow-delay="200ms" href="#cake">美食甜品</a>
+            <a class="wow fadeInUp" data-wow-delay="250ms" href="#culture">在线联系</a>
+            <a class="wow fadeInUp" data-wow-delay="300ms" href="#news">新闻资讯</a>
+            <a class="wow fadeInUp" data-wow-delay="350ms" href="#bottom">联系我们</a>
+          </div>
+        </div>
+        <div class="box-center">
+          <div class="contact-box">
+            <span class="contact-title wow fadeInUp" data-wow-delay="100ms">联系我们</span>
+            <span class="wow fadeInUp" data-wow-delay="150ms">联系电话：400-000-0000</span>
+            <span class="wow fadeInUp" data-wow-delay="200ms">企业邮箱：00000000@00.com</span>
+            <span class="wow fadeInUp" data-wow-delay="250ms">公司传真：+86-00000000000</span>
+            <span class="wow fadeInUp" data-wow-delay="300ms">门店地址：某某省某某市某某区某某路某某某号</span>
+          </div>
+        </div>
+        <div class="box-right">
+          <div class="time-box">
+            <span class="contact-title wow fadeInUp" data-wow-delay="100ms">营业时间</span>
+            <span class="wow fadeInUp" data-wow-delay="150ms">周一至周五： 08:00am - 09:00pm</span>
+            <span class="wow fadeInUp" data-wow-delay="200ms">周六至周日： 09:00am - 10:00pm</span>
+            <span class="wow fadeInUp" data-wow-delay="250ms">法定节假日： 09:00am - 11:00pm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
+<!-- 引入jquery -->
+<script src="./assets/js/jquery.min.js"></script>
+
+<!-- 引入bootstrap js  -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- 引入less -->
+<script src="./assets/js/less.min.js"></script>
+
+<!-- 引入懒加载插件 -->
+<script src="./assets/js/wow.min.js"></script>
+
+<!-- 滚动视觉差插 -->
+<script src="./assets/js/parallax.min.js"></script>
+
+<!-- 制作懒加载效果 -->
+<script>
+  // 实例化懒加载动画效果
+  new WOW().init();
+</script>

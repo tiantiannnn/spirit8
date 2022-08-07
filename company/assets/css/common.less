@@ -1,0 +1,131 @@
+/* 头部 */
+.header {
+    margin: 0;
+    border: 0px;
+    border-radius: 0px;
+    background: #111111;
+
+    /*粘性定位 当在最顶端的时候 跟正常头部一样
+    当滚动条滚动之后，变成固定定位一样*/
+    position: sticky;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+    .navbar-brand {
+        .studio {
+            font-family: Latoblack;
+            // color: red;
+        }
+    }
+
+    .nav {
+        li {
+            a {
+                text-transform: uppercase;
+                border-bottom: 3px solid transparent;
+                margin-right: 1rem;
+                transition: all ease-in-out .3s;
+                color: #fff;
+
+                /* a:hover */
+                &:hover {
+                    border-bottom: 3px solid #fcac45;
+                }
+            }
+        }
+
+    }
+
+    // 当前屏幕 <= 770px  max-width:770px 
+    @media screen and (max-width:770px) {
+        .nav {
+            li {
+                a {
+                    width: 100%;
+                    margin: 0;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+}
+
+
+/* 底部 */
+.footer {
+    width: 100%;
+    background: #111111;
+    padding: 2% 0%;
+    color: #ababab;
+
+    .box {
+        display: flex;
+        justify-content: space-between;
+
+        .left {
+            font-size: 1.2em;
+            font-family: OSLight;
+            white-space: nowrap;
+            overflow: hidden;
+
+            span {
+                font-family: OSBold;
+            }
+        }
+
+        .right {
+            width: 20%;
+            display: flex;
+            justify-content: space-between;
+
+            a {
+                flex-shrink: 0;
+                width: 2.5em;
+                height: 2.5em;
+                line-height: 2.5em;
+                border: 3px solid #ababab;
+                border-radius: 100px;
+                transition: all linear .3s;
+
+                &:hover {
+                    transform: translateY(-10px);
+                    box-shadow: 1px 10px 5px 2px #ababab;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:800px) {
+        .box {
+            .right {
+                width: 30%;
+            }
+        }
+    }
+
+    @media screen and (max-width:650px) {
+        padding: 5% 0%;
+
+        .box {
+            flex-wrap: wrap;
+            justify-content: center;
+
+            .left,
+            .right {
+                width: 100%;
+                text-align: center;
+            }
+
+            .left {
+                margin-bottom: 20px;
+            }
+
+            .right {
+                justify-content: space-around;
+            }
+        }
+    }
+}
