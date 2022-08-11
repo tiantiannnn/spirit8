@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>homestay</title>
+  <!-- 引入bootstrap -->
+  <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+  <!-- 引入animate.css 动画效果 -->
+  <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+  <!-- 重置样式 -->
+  <link rel="stylesheet" href="./assets/css/reset.css" />
+
+  <!-- 公共样式 引入的是一个 less文件 -->
+  <link rel="stylesheet/less" href="./assets/css/common.less" />
+
+  <!-- 首页样式 -->
+  <link rel="stylesheet/less" href="./assets/css/strategy.less" />
+</head>
+
+<body>
+  <!-- 头部  城市选择 -->
+  <div class="top">
+    <div class="top-box">
+      <div class="location">
+        <select class="selection">
+          <option value="">广州</option>
+          <option value="">北京</option>
+          <option value="">上海</option>
+          <option value="">重庆</option>
+          <option value="">深圳</option>
+        </select>
+      </div>
+      <div class="search-box">
+        <input type="text" placeholder="请输入搜索内容">
+      </div>
+    </div>
+  </div>
+  <!-- 选择内容 -->
+  <div class="select-content">
+    <div class="select-big-box">
+
+      <div class="select-small-box wow bounceIn" data-wow-delay="0.2s">
+        <div class="img-box">
+          <img src="./assets/images/strategy-img1.png" alt="">
+        </div>
+        <span>酒店</span>
+      </div>
+
+      <div class="select-small-box wow bounceIn" data-wow-delay="0.4s">
+        <div class="img-box">
+          <img src="./assets/images/strategy-img2.png" alt="">
+        </div>
+        <span>景点</span>
+      </div>
+
+      <div class="select-small-box wow bounceIn" data-wow-delay="0.6s">
+        <div class="img-box">
+          <img src="./assets/images/strategy-img3.png" alt="">
+        </div>
+        <span>机票</span>
+      </div>
+
+      <div class="select-small-box wow bounceIn" data-wow-delay="0.8s">
+        <div class="img-box">
+          <img src="./assets/images/strategy-img4.png" alt="">
+        </div>
+        <span>火车票</span>
+      </div>
+
+      <div class="select-small-box wow bounceIn" data-wow-delay="1s">
+        <div class="img-box">
+          <img src="./assets/images/strategy-img5.png" alt="">
+        </div>
+        <span>汽车票</span>
+      </div>
+
+
+    </div>
+  </div>
+
+  <!-- 图片文字描述 -->
+  <div class="travel">
+    <div class="travel-box wow fadeInDown" data-wow-delay="1s">
+      <div class="big-box ">
+        <div class="img-box">
+          <a href="../homestay/article1.html">
+            <img src="./assets/images/header.png" alt="">
+          </a>
+        </div>
+        <div class="scan">
+          <img src="./assets/images/以阅读icon.png" alt="">
+          <span>3694</span>
+        </div>
+      </div>
+
+      <div class="des-box">
+        <div class="des">
+          巴厘岛 | 世界上最佳的岛屿之一“绮丽之岛”
+        </div>
+        <div class="item-box">
+          <div class="item-left">
+            <img src="./assets/images/库宝表情包10.png" alt="">
+            <span>新新007</span>
+          </div>
+          <div class="item-right-box">
+            <div class="item-love-box">
+              <img src="./assets/images/评论icon.png" alt="">
+              <span>2123</span>
+            </div>
+            <div class="item-love-box">
+              <img src="./assets/images/评论icon.png" alt="">
+              <span>3121</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="travel-box wow fadeInDown" data-wow-delay="1.5s">
+      <div class="big-box ">
+        <div class="img-box">
+          <a href="../homestay/article2.html">
+            <img src="./assets/images/travel-img2.png" alt="">
+          </a>
+        </div>
+        <div class="scan">
+          <img src="./assets/images/以阅读icon.png" alt="">
+          <span>3541</span>
+        </div>
+      </div>
+
+      <div class="des-box">
+        <div class="des">
+          温和的地中海气候，可穿梭美丽的庄园…
+        </div>
+        <div class="item-box">
+          <div class="item-left">
+            <img src="./assets/images/xiaonv.webp" alt="">
+            <span>仙女</span>
+          </div>
+          <div class="item-right-box">
+            <div class="item-love-box">
+              <img src="./assets/images/评论icon.png" alt="">
+              <span>1212</span>
+            </div>
+            <div class="item-love-box">
+              <img src="./assets/images/评论icon.png" alt="">
+              <span>2321</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- bottom底部 -->
+  <div class="bottom">
+    <div class="bottom-box">
+      <div class="item-box">
+        <img src="./assets/images/首页.png" alt="">
+        <a href="./index.html">首页</a>
+      </div>
+
+      <div class="item-box">
+        <img src="./assets/images/攻略.png" alt="">
+        <a href="./strategy.html">攻略</a>
+      </div>
+
+      <div class="item-box">
+        <img src="./assets/images/我的.png" alt="">
+        <a href="./my.html">我的</a>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+<!-- 引入jquery -->
+<script src="./assets/js/jquery.min.js"></script>
+
+<!-- 引入bootstrap js  -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- 引入less -->
+<script src="./assets/js/less.min.js"></script>
+
+<!-- 引入懒加载插件 -->
+<script src="./assets/js/wow.min.js"></script>
+
+<!-- 滚动视觉差插 -->
+<script src="./assets/js/parallax.min.js"></script>
+
+<!-- 制作懒加载效果 -->
+<script>
+  // 实例化懒加载动画效果
+  new WOW().init();
+</script>

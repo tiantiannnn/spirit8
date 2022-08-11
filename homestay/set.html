@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>set</title>
+    <!-- 引入bootstrap -->
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+
+    <!-- 引入animate.css 动画效果 -->
+    <link rel="stylesheet" href="./assets/css/animate.min.css" />
+
+    <!-- 重置样式 -->
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+
+    <!-- 公共样式 引入的是一个 less文件 -->
+    <link rel="stylesheet/less" href="./assets/css/common.less" />
+
+    <!-- 首页样式 -->
+    <link rel="stylesheet/less" href="./assets/css/set.less" />
+</head>
+
+<body>
+    <!-- 顶部头像部分 -->
+    <div class="article-top">
+        <div class="row"></div>
+        <div class="circle-box">
+            <span>安全设置</span>
+        </div>
+    </div>
+
+    <!-- 主体部分 -->
+    <div class="set">
+        <div class="set-box">
+            <div class="set-small-box">
+                <div class="left">
+                    登录密码
+                </div>
+                <div class="right">
+                    <span>******</span>
+                    <div class="row"></div>
+                </div>
+            </div>
+
+            <div class="set-small-box">
+                <div class="left">
+                    实名认证
+                </div>
+                <div class="right">
+                    <span>未认证</span>
+                    <div class="row"></div>
+                </div>
+            </div>
+
+            <div class="set-small-box">
+                <div class="left">
+                    手机号
+                </div>
+                <div class="right">
+                    <span>136****1642</span>
+                    <div class="row"></div>
+                </div>
+            </div>
+
+            <div class="set-small-box">
+                <div class="left">
+                    邮箱账号
+                </div>
+                <div class="right">
+                    <span>Lin****@163.com</span>
+                    <div class="row"></div>
+                </div>
+            </div>
+
+            <div class="set-small-box">
+                <div class="left">
+                    手势密码
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="chk-1">
+                    <label class="button" for="chk-1" id="b1">
+                        <div class="circle"></div>
+                    </label>
+                </div>
+            </div>
+
+            <div class="set-small-box">
+                <div class="left">
+                    指纹识别
+                </div>
+                <div class="right">
+                    <input type="checkbox" id="chk-2">
+                    <label for="chk-2" class="button" id="b2">
+                        <div class="circle"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+<!-- 引入jquery -->
+<script src="./assets/js/jquery.min.js"></script>
+
+<!-- 引入bootstrap js  -->
+<script src="./assets/js/bootstrap.min.js"></script>
+
+<!-- 引入less -->
+<script src="./assets/js/less.min.js"></script>
+
+<!-- 引入懒加载插件 -->
+<script src="./assets/js/wow.min.js"></script>
+
+<!-- 滚动视觉差插 -->
+<script src="./assets/js/parallax.min.js"></script>
+
+<!-- 制作懒加载效果 -->
+<script>
+    // 实例化懒加载动画效果
+    new WOW().init();
+</script>

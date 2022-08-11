@@ -1,0 +1,116 @@
+.article-top {
+    height: 30px;
+    // background-color: aquamarine;
+    position: relative;
+    margin-top: 10px;
+
+    .row {
+        width: 14px;
+        height: 14px;
+        border-top: 2px solid #262626;
+        border-left: 2px solid #262626;
+        transform: rotate(-45deg);
+        position: absolute;
+        left: 30px;
+        top: 27%;
+    }
+
+    .circle-box {
+        width: 100px;
+        height: 100%;
+        // background-color: yellowgreen;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+        span {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    }
+}
+
+// 收藏
+.collect {
+    margin-top: 20px;
+
+    .collect-small-box {
+        width: 90%;
+        margin: 0 auto;
+        // background-color: aquamarine;
+        display: flex;
+        margin-bottom: 20px;
+
+        .left {
+            width: 65%;
+
+            .img-box {
+                position: relative;
+
+                .location-box {
+                    width: 66px;
+                    height: 25px;
+                    display: block;
+                    // background-color: burlywood;
+                    color: #fff;
+                    background-image: url(../images/collect-location.png);
+                    background-repeat: no-repeat;
+                    background-size: 14px;
+                    position: absolute;
+                    right: 10px;
+                    bottom: 5px;
+
+                    span {
+                        float: right;
+                        font-family: SCN;
+                    }
+                }
+            }
+
+
+        }
+
+        .right {
+            width: 70%;
+            // background-color: chartreuse;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            margin-left: 5px;
+
+            .head {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                margin-bottom: 5px;
+
+                .circle {
+                    width: 30px;
+                    height: 30px;
+                    border-radius: 100%;
+                    margin-right: 8px;
+                }
+
+                span {
+                    display: block;
+                    font-family: SCM;
+                    font-size: 1.1em;
+                    font-weight: bold;
+                }
+            }
+
+            .remark {
+                font-family: SCM;
+                font-size: 1em;
+                font-weight: bold;
+            }
+
+            .comment {
+                color: #999999;
+                font-size: 0.8em;
+                font-family: SCN;
+            }
+        }
+    }
+}

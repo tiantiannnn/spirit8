@@ -1,0 +1,113 @@
+.article-top {
+    height: 30px;
+    // background-color: aquamarine;
+    position: relative;
+    margin-top: 10px;
+
+    .row {
+        width: 14px;
+        height: 14px;
+        border-top: 2px solid #262626;
+        border-left: 2px solid #262626;
+        transform: rotate(-45deg);
+        position: absolute;
+        left: 30px;
+        top: 27%;
+    }
+
+    .circle-box {
+        width: 100px;
+        height: 100%;
+        // background-color: yellowgreen;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+        .circle {
+            width: 30px;
+            height: 30px;
+            border-radius: 100%;
+            background-image: url(../images/库宝表情包10.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        span {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+    }
+}
+
+
+.attention-box {
+    margin-top: 20px;
+    height: 580px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .attention-small-box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 95%;
+        margin: 0 auto;
+        height: 40px;
+        // background-color: yellowgreen;
+
+        .left-box {
+            width: 80%;
+            height: 100%;
+            // background-color: aquamarine;
+            display: flex;
+            align-items: center;
+
+            .circle {
+                width: 50px;
+                height: 50px;
+                border-radius: 100%;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: contain;
+                }
+            }
+
+            .remark-box {
+                margin-left: 10px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                flex-wrap: wrap;
+                align-content: center;
+
+                .name {
+                    font-family: SCM;
+                    font-size: 1em;
+                    font-weight: bold;
+                }
+
+                .remark {
+                    font-family: SCN;
+                    font-size: 0.8em;
+                    color: #999999;
+                }
+            }
+        }
+
+        .pay-attention {
+            width: 70px;
+            height: 34px;
+            border-radius: 17px;
+            background-color: #eeeeee;
+            color: #999999;
+            text-align: center;
+            line-height: 34px;
+            font-size: 0.9em;
+
+        }
+    }
+}
